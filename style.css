@@ -19,6 +19,7 @@ body {
     border-radius: 15px;
     background-color: white;
     box-shadow: 8px 8px;
+    transition: 1s;
 }
 
 #card:hover {
@@ -93,6 +94,7 @@ p {
 h2 {
     font-family: Figtree;
     font-weight: 800;
+    transition: 1s;
 }
 
 h2:hover {
@@ -147,6 +149,7 @@ h2:hover {
         border-radius: 25px;
         background-color: white;
         box-shadow: 8px 8px;
+        transition: 1s;
     }
 
     #card:hover {
@@ -224,6 +227,7 @@ h2:hover {
         font-family: Figtree;
         font-weight: 800;
         font-size: 20px;
+        transition: 1s;
     }
 
     h2:hover {
@@ -280,6 +284,7 @@ h2:hover {
         border-radius: 25px;
         background-color: white;
         box-shadow: 8px 8px;
+        transition: 1s;
     }
 
     #card:hover {
@@ -355,6 +360,7 @@ h2:hover {
         font-family: Figtree;
         font-weight: 800;
         font-size: 22px;
+        transition: 1s;
     }
 
     h2:hover {
