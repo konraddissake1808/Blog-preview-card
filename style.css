@@ -18,7 +18,7 @@ body {
     border: solid 1px;
     border-radius: 15px;
     background-color: white;
-    box-shadow: 5px 5px;
+    box-shadow: 8px 8px;
 }
 
 #card-content {
@@ -45,7 +45,7 @@ body {
 }
 
 #post-theme {
-    width: 86%;
+    width: 322px;
     display: flex;
     justify-content: flex-start;
     margin-top: 24px;
@@ -63,6 +63,58 @@ h3 {
     margin: 0;
 }
 
+#post-publication-date {
+    display: flex;
+    justify-content: flex-start;
+    width: 322px;
+    height: 35px;
+}
+
+p {
+    font-family: Figtree;
+    font-weight: 500;
+}
+
+#post-title {
+    display: flex;
+    justify-content: flex-start;
+    width: 322px;
+}
+
+h2 {
+    font-family: Figtree;
+    font-weight: 800;
+}
+
+#post-preview-text {
+    display: flex;
+    justify-content: flex-start;
+    width: 86%;
+    height: 80px;
+    align-items: baseline;
+}
+
+#text-container {
+    height: 100%;
+}
+
+#post-text {
+    margin-top: 0px;
+    color: hsl(0, 0%, 50%);
+}
+
+#post-author {
+    width: 86%;
+}
+
+#author-container {
+    display: flex;
+}
+
+#author-profile-picture {
+    width: 36px;
+}
+
 @media (width < 321px) {
     body {
         width: 100vw;
@@ -74,12 +126,12 @@ h3 {
     }
 
     #card {
-        width: 275px;
-        height: 480px;
+        width: 280px;
+        height: 460px;
         border: solid 1px;
         border-radius: 25px;
         background-color: white;
-        box-shadow: 5px 5px;
+        box-shadow: 8px 8px;
     }
 
     #card-content {
@@ -125,6 +177,59 @@ h3 {
         padding: 6px 16px;
         margin: 0;
     }
+
+    #post-publication-date {
+        display: flex;
+        justify-content: flex-start;
+        width: 86%;
+        height: 35px;
+    }
+
+    p {
+        font-family: Figtree;
+        font-weight: 500;
+    }
+
+    #post-title {
+        display: flex;
+        justify-content: flex-start;
+        width: 86%;
+    }
+
+    h2 {
+        font-family: Figtree;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    #post-preview-text {
+        display: flex;
+        justify-content: flex-start;
+        width: 86%;
+        height: 90px;
+        align-items: baseline;
+    }
+    
+    #text-container {
+        height: 100%;
+    }
+
+    #post-text {
+        margin-top: 0px;
+        color: hsl(0, 0%, 50%);
+    }
+
+    #post-author {
+        width: 86%;
+    }
+
+    #author-container {
+        display: flex;
+    }
+
+    #author-profile-picture {
+        width: 36px;
+    }
 }
 
 @media (376px > width > 320px) {
@@ -139,11 +244,11 @@ h3 {
 
     #card {
         width: 335px;
-        height: 520px;
+        height: 505px;
         border: solid 1px;
         border-radius: 25px;
         background-color: white;
-        box-shadow: 5px 5px;
+        box-shadow: 8px 8px;
     }
 
     #card-content {
@@ -186,5 +291,58 @@ h3 {
         font-weight: 800;
         padding: 8px 18px;
         margin: 0;
+    }
+
+    #post-publication-date {
+        display: flex;
+        justify-content: flex-start;
+        width: 86%;
+        height: 35px;
+    }
+
+    p {
+        font-family: Figtree;
+        font-weight: 500;
+    }
+
+    #post-title {
+        display: flex;
+        justify-content: flex-start;
+        width: 86%;
+    }
+
+    h2 {
+        font-family: Figtree;
+        font-weight: 800;
+        font-size: 22px;
+    }
+
+    #post-preview-text {
+        display: flex;
+        justify-content: flex-start;
+        width: 86%;
+        height: 87px;
+        align-items: baseline;
+    }
+
+    #text-container {
+        height: 100%;
+    }
+
+    #post-text {
+        margin-top: 0px;
+        color: hsl(0, 0%, 50%);
+    }
+    
+    #post-author {
+        width: 86%;
+    }
+
+    #author-container {
+        display: flex;
+    }
+
+    #author-profile-picture {
+        width: 36px;
     }
 }
