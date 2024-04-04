@@ -21,6 +21,15 @@ body {
     box-shadow: 8px 8px;
 }
 
+#card:hover {
+    width: 365px;
+    height: 520px;
+    border: solid 1px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 12px 12px;
+}
+
 #card-content {
     display: flex;
     flex-direction: column;
@@ -86,6 +95,12 @@ h2 {
     font-weight: 800;
 }
 
+h2:hover {
+    font-family: Figtree;
+    font-weight: 800;
+    color: hsl(47, 88%, 63%);
+}
+
 #post-preview-text {
     display: flex;
     justify-content: flex-start;
@@ -132,6 +147,15 @@ h2 {
         border-radius: 25px;
         background-color: white;
         box-shadow: 8px 8px;
+    }
+
+    #card:hover {
+    width: 280px;
+    height: 460px;
+    border: solid 1px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 12px 12px;
     }
 
     #card-content {
@@ -202,6 +226,13 @@ h2 {
         font-size: 20px;
     }
 
+    h2:hover {
+        font-family: Figtree;
+        font-weight: 800;
+        font-size: 20px;
+        color: hsl(47, 88%, 63%);
+    }
+
     #post-preview-text {
         display: flex;
         justify-content: flex-start;
@@ -249,6 +280,15 @@ h2 {
         border-radius: 25px;
         background-color: white;
         box-shadow: 8px 8px;
+    }
+
+    #card:hover {
+        width: 335px;
+        height: 505px;
+        border: solid 1px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 12px 12px;
     }
 
     #card-content {
@@ -315,6 +355,13 @@ h2 {
         font-family: Figtree;
         font-weight: 800;
         font-size: 22px;
+    }
+
+    h2:hover {
+        font-family: Figtree;
+        font-weight: 800;
+        font-size: 22px;
+        color: hsl(47, 88%, 63%);
     }
 
     #post-preview-text {
